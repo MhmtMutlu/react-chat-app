@@ -7,7 +7,7 @@ export function useContacts() {
     return useContext(ContactsContext)
 }
 
-export default function ContactsProvider({ children }) {
+export function ContactsProvider({ children }) {
 
     const [contacts, setContacts] = useLocalStorage("contacts", [])
 
