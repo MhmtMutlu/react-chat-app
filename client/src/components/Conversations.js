@@ -4,7 +4,7 @@ import { useConversations } from '../contexts/ConversationsProvider'
 
 export default function Conversation() {
 
-    const { conversations, selectedConversationIndex } = useConversations()
+    const { conversations, selectConversationIndex } = useConversations()
 
     return (
         <div>
@@ -13,7 +13,7 @@ export default function Conversation() {
                 <ListGroup.Item
                  key={index}
                  action
-                 onClick={() => selectedConversationIndex(index)}
+                 onClick={() => selectConversationIndex(index)}
                  active={conversation.selected}
                 >
                     {conversation.recipients.map(r => r.name).join(", ")}
