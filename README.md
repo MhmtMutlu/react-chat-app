@@ -2,6 +2,8 @@
 
 I have coded a chat app with following <a href="https://www.youtube.com/watch?v=tBr-PybP_9c">Web Dev Simplified's</a> tutorial. With this project, I have make practices about ReactJS, Socket.IO and Bootstrap.
 
+# 🎞 Display
+
 ![Proje Resmi](client/public/project.gif)
 
 # 🧰 Toolbox
